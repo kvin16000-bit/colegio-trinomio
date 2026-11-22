@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Institución Educativa Privada TRINOMIO</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navegación -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#inicio" class="brand">
+        <svg class="logo-svg-sm" viewBox="0 0 120 120" aria-hidden="true">
+          <defs>
+            <linearGradient id="goldGradSm" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F7E08B" />
+              <stop offset="50%" stop-color="#D4AF37" />
+              <stop offset="100%" stop-color="#9A7611" />
+            </linearGradient>
+          </defs>
+          <circle cx="60" cy="60" r="54" fill="#0B0B0B" stroke="url(#goldGradSm)" stroke-width="6" />
+          <circle cx="60" cy="60" r="46" fill="none" stroke="url(#goldGradSm)" stroke-width="2" stroke-dasharray="62 12" />
+          <path d="M36 32 L36 52 L84 52 L84 32 L72 43 L60 30 L48 43 Z" fill="url(#goldGradSm)" />
+          <path d="M36 58 L84 58 L84 68 L66 68 L66 96 L60 103 L54 96 L54 68 L36 68 Z" fill="url(#goldGradSm)" />
+        </svg>
+        <div class="brand-text">
+          <span class="brand-sub">I.E.P.</span>
+          <span class="brand-title">TRINOMIO</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#pilares">Nuestro Trinomio</a>
+        <a href="#niveles">Niveles</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#admision" class="btn-nav">Admisión 2027</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portada Hero -->
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-info">
+        <span class="badge">EXCELENCIA ACADÉMICA Y FORMACIÓN INTEGRAL</span>
+        <p class="hero-kicker">INSTITUCIÓN EDUCATIVA PRIVADA</p>
+        <h1 class="hero-title">TRINOMIO</h1>
+        <p class="hero-desc">
+          Formamos líderes con alto nivel académico, disciplina y valores sólidos.
+          Potenciamos el talento de cada estudiante desde sus primeros pasos hasta su ingreso a la universidad.
+        </p>
+        <div class="hero-actions">
+          <a href="#admision" class="btn btn-dark">Solicitar Vacante</a>
+          <a href="#niveles" class="btn btn-outline">Conocer Niveles</a>
+        </div>
+      </div>
+
+      <div class="hero-emblem-wrap">
+        <div class="emblem-card">
+          <svg class="logo-svg-lg" viewBox="0 0 200 200" role="img" aria-label="Escudo Institucional TRINOMIO">
+            <defs>
+              <linearGradient id="goldBevel" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFF0A8" />
+                <stop offset="35%" stop-color="#E5C158" />
+                <stop offset="70%" stop-color="#B88B1E" />
+                <stop offset="100%" stop-color="#FCE48A" />
+              </linearGradient>
+              <radialGradient id="blackCore" cx="40%" cy="35%" r="65%">
+                <stop offset="0%" stop-color="#222222" />
+                <stop offset="100%" stop-color="#070707" />
+              </radialGradient>
+              <filter id="dropShadow" x="-15%" y="-15%" width="130%" height="130%">
+                <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.45" />
+              </filter>
+            </defs>
+            <circle cx="100" cy="100" r="90" fill="url(#blackCore)" stroke="url(#goldBevel)" stroke-width="9" filter="url(#dropShadow)" />
+            <circle cx="100" cy="100" r="78" fill="none" stroke="url(#goldBevel)" stroke-width="3.5" stroke-dasharray="105 18" stroke-linecap="round" />
+            <!-- Corona -->
+            <path d="M62 52 L62 85 L138 85 L138 52 L119 70 L100 49 L81 70 Z" fill="url(#goldBevel)" />
+            <!-- Letra T -->
+            <path d="M62 94 L138 94 L138 110 L109 110 L109 156 L100 167 L91 156 L91 110 L62 110 Z" fill="url(#goldBevel)" />
+          </svg>
+          <div class="emblem-caption">CIENCIA • DISCIPLINA • VALORES</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pilares: El Trinomio -->
+  <section class="section section-dark" id="pilares">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag-gold">NUESTRA FILOSOFÍA</span>
+        <h2>El Poder de Nuestro Trinomio</h2>
+        <p>Tres ejes fundamentales que sostienen el éxito académico y personal de nuestros estudiantes.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="pillar-card">
+          <div class="pillar-num">01</div>
+          <h3>Exigencia Académica</h3>
+          <p>Metodología activa orientada al razonamiento lógico, ciencias, comprensión lectora y preparación preuniversitaria continua.</p>
+        </article>
+
+        <article class="pillar-card">
+          <div class="pillar-num">02</div>
+          <h3>Formación en Valores</h3>
+          <p>Fomentamos el respeto, la responsabilidad, el liderazgo ético y el compromiso con la familia y la sociedad.</p>
+        </article>
+
+        <article class="pillar-card">
+          <div class="pillar-num">03</div>
+          <h3>Innovación y Talento</h3>
+          <p>Desarrollo de habilidades digitales, pensamiento crítico, arte y deporte en un entorno seguro y motivador.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Niveles Educativos -->
+  <section class="section section-light" id="niveles">
+    <div class="container">
+      <div class="section-header dark-text">
+        <span class="tag-dark">OFERTA EDUCATIVA</span>
+        <h2>Niveles Académicos</h2>
+        <p>Acompañamiento personalizado en cada etapa del desarrollo escolar.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="level-card">
+          <div class="level-badge">3 a 5 años</div>
+          <h3>Nivel Inicial</h3>
+          <p>Estimulación temprana, psicomotricidad, iniciación a la lectura, inglés lúdico y desarrollo socioemocional.</p>
+          <button class="btn-card" data-nivel="inicial">Ver Plan de Estudios</button>
+        </article>
+
+        <article class="level-card featured">
+          <div class="level-badge">1.° a 6.° Grado</div>
+          <h3>Nivel Primaria</h3>
+          <p>Bases sólidas en matemática, comunicación, ciencias, robótica educativa, inglés intensivo y talleres formativos.</p>
+          <button class="btn-card" data-nivel="primaria">Ver Plan de Estudios</button>
+        </article>
+
+        <article class="level-card">
+          <div class="level-badge">1.° a 5.° Año</div>
+          <h3>Nivel Secundaria</h3>
+          <p>Preparación preuniversitaria integral, simulacros tipo examen de admisión, orientación vocacional y liderazgo.</p>
+          <button class="btn-card" data-nivel="secundaria">Ver Plan de Estudios</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Indicadores / Resultados -->
+  <section class="section section-yellow" id="resultados">
+    <div class="container stats-grid">
+      <div class="stat-box">
+        <span class="stat-number" data-target="98">0</span><span class="stat-symbol">%</span>
+        <p>Ingreso a universidades nacionales y privadas</p>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="15">0</span><span class="stat-symbol">+</span>
+        <p>Años formando generaciones de éxito</p>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="25">0</span><span class="stat-symbol"></span>
+        <p>Estudiantes máximo por aula para atención directa</p>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number" data-target="100">0</span><span class="stat-symbol">%</span>
+        <p>Docentes especialistas y tutores dedicados</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admisión -->
+  <section class="section section-dark" id="admision">
+    <div class="container admission-grid">
+      <div class="admission-info">
+        <span class="tag-gold">MATRÍCULA ABIERTA</span>
+        <h2>Proceso de Admisión</h2>
+        <p>Agenda una visita guiada o solicita información detallada sobre vacantes, pensiones y beneficios para familias nuevas.</p>
+        <ul class="contact-list">
+          <li><strong>Horario de atención:</strong> Lunes a Viernes de 8:00 a.m. a 4:00 p.m.</li>
+          <li><strong>Teléfono / WhatsApp:</strong> (051) 999-888-777</li>
+          <li><strong>Correo:</strong> admision@colegiotrinomio.edu.pe</li>
+        </ul>
+      </div>
+
+      <form class="admission-form" id="admissionForm" novalidate>
+        <h3>Solicitar Información</h3>
+        <div class="form-group">
+          <label for="apoderado">Nombre del Padre o Apoderado *</label>
+          <input type="text" id="apoderado" name="apoderado" placeholder="Ej. Carlos Mendoza" required />
+        </div>
+        <div class="form-group">
+          <label for="telefono">Celular / WhatsApp *</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Ej. 987654321" required />
+        </div>
+        <div class="form-group">
+          <label for="nivelSelect">Nivel Educativo de Interés *</label>
+          <select id="nivelSelect" name="nivel" required>
+            <option value="">Seleccione un nivel...</option>
+            <option value="Inicial">Nivel Inicial</option>
+            <option value="Primaria">Nivel Primaria</option>
+            <option value="Secundaria">Nivel Secundaria</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-gold full-width">Enviar Solicitud</button>
+        <p class="form-feedback" id="formFeedback" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> <strong>Institución Educativa Privada TRINOMIO</strong>. Todos los derechos reservados.</p>
+      <a href="#inicio" class="back-top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modal Plan de Estudios -->
+  <div class="modal-backdrop" id="studyModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Cerrar ventana">&times;</button>
+      <span class="tag-gold" id="modalBadge">NIVEL</span>
+      <h3 id="modalTitle">Plan de Estudios</h3>
+      <p id="modalDesc"></p>
+      <ul class="modal-list" id="modalList"></ul>
+      <a href="#admision" class="btn btn-gold" id="modalCta">Consultar Vacantes</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
